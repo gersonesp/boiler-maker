@@ -1,4 +1,7 @@
 import React from "react";
-import { render } from "react-dom";
+import ReactDOM from "react-dom";
 
-render(<div>YNWA!</div>, document.getElementById("main"));
+ReactDOM.render(
+  <div>YNWA! TOP OF THE LEAGUE!</div>,
+  document.getElementById("main")
+);
